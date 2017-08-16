@@ -1,0 +1,4 @@
+{
+	"DBURL": "mongodb://localhost/devices",
+	"PORT": "8089"
+}

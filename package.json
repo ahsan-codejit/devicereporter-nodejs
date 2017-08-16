@@ -1,0 +1,42 @@
+{
+	"name": "nodejsdevicereporter",
+	"version": "1.0.0",
+	"description": "device reporter developed in nodejs",
+	"main": "app.js",
+	"repository": {
+		"type": "git",
+		"url": "git+ssh://git@github.com/ahsan-codejit/devicereporter-nodejs.git"
+	},
+	"keywords": [
+		"node.js",
+		"express.js",
+		"mongoose",
+		"mongodb",
+		"mocha",
+		"chai",
+		"chaihttp"
+	],
+	"author": "Md. Ahsan Habib (ahhasan.1325@gmail.com)",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/ahsan-codejit/devicereporter-nodejs/issues"
+	},
+	"homepage": "https://github.com/ahsan-codejit/devicereporter-nodejs#readme",
+	"scripts": {
+		"start": "export NODE_ENV=dev && node app.js",
+		"debug": "export NODE_ENV=dev && node --inspect app",
+		"test": "export NODE_ENV=test && mocha --timeout 10000"
+	},
+	"dependencies": {
+		"body-parser": "^1.17.2",
+		"config": "^1.26.2",
+		"express": "^4.15.4",
+		"mongoose": "^4.11.7",
+		"morgan": "^1.8.2"
+	},
+	"devDependencies": {
+		"chai": "^4.1.1",
+		"chai-http": "^3.0.0",
+		"mocha": "^3.5.0"
+	}
+}
